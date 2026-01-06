@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // 1. Import Layout Components
-import Navbar from './components/layout/navbar';
+import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
 // 2. Import Pages - MATCHING FILENAMES EXACTLY
 import Home from './pages/home';
 import Donate from './pages/donate'; 
 import Causes from './pages/causes';
-import About from './pages/about';
+import About from './pages/about';S
 import Impact from './pages/impact';
 import Volunteer from './pages/volunteer';
 import Contact from './pages/contact';
